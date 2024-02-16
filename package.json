@@ -1,0 +1,20 @@
+{
+  "name": "01_bassic",
+  "version": "1.0.0",
+  "description": "this is the first time using backend 01 day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "01day"
+  ],
+  "author": "Samir kyamkhani",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2"
+  }
+}
