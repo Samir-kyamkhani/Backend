@@ -1,0 +1,19 @@
+{
+  "name": "04data_modelling_practice",
+  "version": "1.0.0",
+  "description": "practice data modelling",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Samir Kyamkhani",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.1.3"
+  }
+}
