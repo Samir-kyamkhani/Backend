@@ -10,7 +10,7 @@ dotenv.config({
 const port = process.env.PORT || 8000
 
 DB_CONNECTION()
-.then(
+.then(() => {
     app.on("error", (error) => {
         console.log("Server litioning error: ",error);
         throw error
@@ -18,8 +18,11 @@ DB_CONNECTION()
     app.listen(port, () => {
         console.log(`Server running at port: ${port}`);
     })
-)
+})
 .catch((error) => {
-    console.log("Conection error: ",error);
+    console.log("Conection error :: ",error);
     throw error
 })
+
+
+
